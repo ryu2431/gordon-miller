@@ -333,7 +333,7 @@ h6 {
 .testimonial {
 	background: #fff;
 	/* background: linear-gradient(to left, #004c97, #005f9e); */
-	padding:100px 0px;
+	padding:50px 0px 0px;
 	position:relative;
 }
 .testimonial::before {
@@ -367,35 +367,42 @@ h6 {
 .slider-item {
 	padding:20px;
 	margin-right:10px;
-	background: #fafafa !important;
-	border-radius: 5px !important;
+	/* background: #fafafa !important; */
+	/* border-radius: 5px !important; */
+}
+.slider-item a {
+	display:block;
+	text-decoration:none;
+	color:#000;
 }
 .slider .test-img img {
-	border: 12px solid #fff;
-	border-radius: 50%;
+	/* border: 12px solid #fff;
+	border-radius: 50%; */
 	width: 100%;
 	height: auto;
 }
 .test-img {
-	float: left;
-	width: 20%;
-	margin-right:5%;
+	/* float: left; */
+	width: 100%;
+	/* margin-right:5%; */
 }
 .test-text {
-	float: left;
-	width: 75%;
+	/* float: left; */
+	width: 100%;
+	margin-top: 20px;
 }
 .slider .title {
 	display: block;
 	position: relative;
 	margin: 0 0 20px;
-	font-size: 1.125em;
-	line-height: 1.25;
-}
-.slider .title span {
-	display: block;
 	font-size: 1.5em;
+	line-height: 1.25;
 	font-weight: 700;
+}
+.slider .price {
+	display: block;
+	font-size: 1.125em;
+	color:red;
 }
 .faq {
 	background: #fafafa;
