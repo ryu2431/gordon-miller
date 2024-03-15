@@ -228,12 +228,12 @@ h6 {
 	text-decoration:none;
 }
 .background-section {
-	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/background-bg.jpg) no-repeat fixed center;
+	background:url(images/background-bg.jpg) no-repeat fixed center;
 	background-size: cover;
 	overflow: hidden;
 }
 .video-section {
-	background: url(images/video-bg.jpg) no-repeat fixed center;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/video-bg.jpg) no-repeat fixed center;
 	background-size: cover;
 	overflow: hidden;
 }
