@@ -362,13 +362,13 @@ h6 {
 	background: url(images/arrow-right.png) no-repeat !important;
 	background-size: auto auto !important;
 	background-size: 100% 100% !important;
-}
-.bx-wrapper {
-	max-width:1010px !important;
-	border: none !important;
-	background:none;
-	box-shadow:none !important;
-}
+	.bx-wrapper {
+	    max-width: ;1010px !important
+	    border: none !important;
+	    background: none;
+	    box-shadow: none !important;
+	    margin: 0 auto;
+	}
 .slider-item {
 	padding:20px;
 	margin-right:10px;
@@ -529,6 +529,8 @@ input {
 }
 .navbar .nav-item a {
 	color:#000;
+	width: 60%;
+	margin: 0 auto;
 }
 .navbar .active {
 	color:#000 !important;
