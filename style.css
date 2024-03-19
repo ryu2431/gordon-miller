@@ -521,14 +521,6 @@ input {
 	margin-bottom:0px;
 }
 @media all and (max-width:991px) {
-.nav-scroll .nav-item a:hover {
-	color: #fff !important;
-	border-bottom:1px solid #fff;
-}
-.nav-scroll .nav-item .active {
-	color: #fff !important;
-	border-bottom:1px solid #fff;
-}
 .navbar .navbar-collapse {
 	overflow: auto;
 	background:  #fff;
@@ -541,9 +533,21 @@ input {
 	width: 60%;
 	margin: 0 auto;
 }
+.navbar .nav-item a:hover {
+	color:#000 !important;
+	border-bottom:1px solid #000;
+}
 .navbar .active {
 	color:#000 !important;
 	border-bottom:1px solid #000;
+}
+.nav-scroll .nav-item a:hover {
+	color: #fff !important;
+	border-bottom:1px solid #fff;
+}
+.nav-scroll .nav-item .active {
+	color: #fff !important;
+	border-bottom:1px solid #fff;
 }
 .nav-scroll .navbar-collapse {
 	background: #000 !important;
