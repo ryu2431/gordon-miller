@@ -521,6 +521,14 @@ input {
 	margin-bottom:0px;
 }
 @media all and (max-width:991px) {
+.nav-scroll .nav-item a:hover {
+	color: #fff !important;
+	border-bottom:1px solid #fff;
+}
+.nav-scroll .nav-item .active {
+	color: #fff !important;
+	border-bottom:1px solid #fff;
+}
 .navbar .navbar-collapse {
 	overflow: auto;
 	background:  #fff;
