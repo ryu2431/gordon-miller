@@ -362,8 +362,9 @@ h6 {
 	background: url(images/arrow-right.png) no-repeat !important;
 	background-size: auto auto !important;
 	background-size: 100% 100% !important;
-	.bx-wrapper {
-	    max-width: ;1010px !important
+}
+.bx-wrapper {
+    max-width: ;1010px !important
 	    border: none !important;
 	    background: none;
 	    box-shadow: none !important;
